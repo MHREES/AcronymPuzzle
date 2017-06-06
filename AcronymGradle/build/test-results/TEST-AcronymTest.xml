@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AcronymTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-06-06T09:25:42" hostname="LUK-PC08MLC5" time="0.01">
+<testsuite name="AcronymTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2017-06-06T14:55:37" hostname="LUK-PC08MLC5" time="0.014">
   <properties/>
-  <testcase name="fromTitleCasedPhrases" classname="AcronymTest" time="0.006"/>
-  <testcase name="fromPhrasesWithPunctuationAndSentenceCasing" classname="AcronymTest" time="0.0"/>
-  <testcase name="fromOtherPhrasesWithPunctuation" classname="AcronymTest" time="0.0"/>
-  <testcase name="fromPhrasesWithNonAcronymAllCapsWord" classname="AcronymTest" time="0.0"/>
-  <testcase name="fromOtherTitleCasedPhrases" classname="AcronymTest" time="0.001"/>
-  <testcase name="fromPhrasesWithPunctuation" classname="AcronymTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="fromTitleCasedPhrases" classname="AcronymTest" time="0.008"/>
+  <testcase name="fromPhrasesWithPunctuationAndSentenceCasing" classname="AcronymTest" time="0.001"/>
+  <testcase name="fromOtherPhrasesWithPunctuation" classname="AcronymTest" time="0.001"/>
+  <testcase name="fromPhrasesWithNonAcronymAllCapsWord" classname="AcronymTest" time="0.001"/>
+  <testcase name="fromOtherTitleCasedPhrases" classname="AcronymTest" time="0.0"/>
+  <testcase name="fromPhraseWithSingleLetterWord" classname="AcronymTest" time="0.0"/>
+  <testcase name="fromInconsistentlyCasedPhrases" classname="AcronymTest" time="0.001"/>
+  <testcase name="fromPhrasesWithPunctuation" classname="AcronymTest" time="0.001"/>
+  <system-out><![CDATA[PNG
+CMOS
+PHP
+GIMP
+ROR
+CIAH
+HTML
+FIFO
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

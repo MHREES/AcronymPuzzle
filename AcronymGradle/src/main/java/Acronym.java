@@ -23,6 +23,8 @@ public class Acronym {
         	String spacestoPhrase = phrase.replaceAll("[^A-Z]([A-Z][^AZ])", " $1");
         	// Take the upper case letter of all words preceded by a blank
         	String acronymofPhrase = spacestoPhrase.replaceAll("\\B.|\\P{L}", "").toUpperCase();
+		// Print the result so that it can be used for the command line acronym maker tool
+		System.out.println(acronymofPhrase);
         	return acronymofPhrase;
     	}
 }
