@@ -13,7 +13,7 @@ public class Acronym {
 	}
 	
 	// Create a method that returns answer as a string 'get()'. Made public so that it can be called from the test script without compromising 'answer'
-	public String get(){
+	String get(){
 		return answer;
 	}
 
